@@ -31,7 +31,7 @@
 		{
 			// js: require()
 			"scope": "\\.js\\s",					// 1. ignore if scope at cursor does not match expression (super+alt+p)
-			"prefix": ["require", "define"],		// 2. trigger only if: require(<cursor>, define([<cursor>
+			"prefix": ["require", "define", "import"],		// 2. trigger only if: require(<cursor>, define([<cursor>
 			// if 1 & 2 are true:
 			"auto": true,
 			"relative": true,						// insert absolute
